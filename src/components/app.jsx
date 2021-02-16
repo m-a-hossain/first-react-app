@@ -1,14 +1,23 @@
 import React,{Component} from 'react'
  import Profile from './profile'
+ import Skill from './profile/skill'
+import MyProps from './props'
 
  class App extends Component{
          render(){
              return(
                  <div className='App'>
                      <Profile/>
+                     
+             <h2>skill of Aaron</h2>
+                 <Skill skillA='node' skillB='mongoDb' skillc='react' skillD='express'/>
+
+                 <MyProps name='suhel' />  
+                 <MyProps name='aaron hossain' />  
                  </div>
+              
              )
-         }
+         } 
  }
  
 
