@@ -1,0 +1,55 @@
+.container{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(142, 180, 182);
+}
+.Bio{
+    padding: 10 px;
+
+}
+.Bio h4, h1{
+    text-align: center;
+}
+.skill{
+    padding:10 px;
+
+}
+.skill ul{
+    display: flex;
+    margin-left:700px;
+   
+
+}
+.skill ul li{
+    padding: 5px;
+    background-color: cornsilk;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 5px;
+    border: .5px solid;
+}
+.skill p, h2{
+    text-align: center;
+}
+.social{
+    padding:10 px;
+}
+
+.social ul{
+    display: flex;
+    margin-left:700px;
+
+}
+.social ul li{
+    margin: 5px;
+    padding: 5px;
+    background-color: cornsilk;
+    text-decoration: none;
+    list-style-type: none; 
+    border: .5px solid;
+}
+.social ul li:hover{
+   background-color: rgb(207, 216, 127);
+  cursor: pointer;
+  
+}

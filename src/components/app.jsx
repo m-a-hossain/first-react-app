@@ -1,4 +1,16 @@
 import React,{Component} from 'react'
+ import Profile from './profile'
+
+ class App extends Component{
+         render(){
+             return(
+                 <div className='App'>
+                     <Profile/>
+                 </div>
+             )
+         }
+ }
+ 
 
 /* 
 // basic component 
@@ -7,9 +19,24 @@ class App extends Component{
      return <h1>hello suhel welcome to react</h1>;
     }
 } */
-const CustomComp =() => <h2>my name is hossain</h2>
-class App extends Component{
-    render(){
+
+/* 
+       component has two layers
+
+       data layer or logic layer 
+       function 
+       state
+       variable
+       life cycle method
+
+       representation layer
+
+       jsx
+
+*/
+/*  const CustomComp =() => <h2>my name is hossain</h2> 
+ class App extends Component{
+    render(){// u i 
         const name= 'M A Hossain Suhel'
         const myData=(
                 <div>
@@ -18,10 +45,10 @@ class App extends Component{
                         and it calling into the return area using a variable .
                     </p>
                 </div>
-        ); 
-
+     ); 
+ */
         
-        return(
+    /*     return(
             <div className='App'>
                 <CustomComp/>
 
@@ -33,6 +60,6 @@ class App extends Component{
             </div>
         );
     }
-}
-
+} 
+ */
 export default App
